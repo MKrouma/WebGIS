@@ -20,13 +20,13 @@ body{
 
 
 /* main & main contianer  */
-main, .main-container, .main-left, .main-right{
+/* main, .main-container, .main-left, .main-right{
     border: 1px solid red;
-}
+} */
 
 main{
     width: 100%;
-    height: 1500px;
+    height: 800px;
 
     display: flex;
     align-items: center;
@@ -45,11 +45,75 @@ main{
 }
 
 .main-left{
-    width: 35%;
+    width: 30%;
     height: 100%;
+
+    padding: 2em;
 }
 
 .main-right{
-    width: 65%;
+    width: 70%;
     height: 100%;
+    padding: 4em 2em 2em 2em;
+}
+
+
+
+/* main left  */
+/* .main-left, .left-intro, .title, .choose-city{
+    border: 1px solid red;
+} */
+
+.left-intro{
+    width: 100%;
+    height: 165px;
+
+    border-bottom: 1px solid gray;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+
+    padding-bottom: 1em;
+}
+
+.choose-city{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: .5em;
+}
+
+.city{
+    width: 100%;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.change-btn{
+    background-color: var(--background-project);
+}
+
+.change-btn button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* main right  */
+/* .main-right, #map
+{
+    border: 1px solid red;
+} */
+
+#map{
+    height: 100%;
+    border-radius: 2%;
 }
