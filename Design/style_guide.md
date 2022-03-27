@@ -25,6 +25,8 @@ Plus : <i class="fa-solid fa-plus"></i>
 Layers : <i class="fa-solid fa-layer-group"></i>
 Reset : <i class="fa-solid fa-rotate"></i>
 Go : 
+Toggle-off : <i class="fa-solid fa-toggle-off"></i>
+toogle-on : <i class="fa-solid fa-toggle-on"></i>
 ```
 
 

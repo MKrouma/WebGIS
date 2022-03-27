@@ -1,6 +1,6 @@
 // map class initialize 
 var map = L.map('map').setView([5.3600, -4.0083], 13);
-map.zoomControl.setPosition('topright');
+map.zoomControl.setPosition('bottomright');
 
 // adding osm tilelayer 
 var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -8,4 +8,4 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 //add map scale
-L.control.scale().addTo(map);
+// L.control.scale().addTo(map);
