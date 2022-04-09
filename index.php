@@ -1,1 +1,1 @@
-App/home
+home.html
