@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS | Moque</title>
+
+    <script src="https://kit.fontawesome.com/c4c0df9b23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="main-left">
+                <div class="left-intro">
+                    <div class="title">MasjidApp</div>
+                    <div class="choose-city">Choose city</div>
+                    <div class="city">
+                        <div class="city-name">
+                            <p class="city-name">Abidjan</p>
+                        </div>
+                        <div class="change-btn">
+                            <button>Change</button>
+                        </div>
+                          
+                    </div>
+                    <div></div>
+                </div>
+                <div class="left-radius">
+                    <div class="choose-city">Proximity radius</div>
+                    <div class="radus-option">
+                        <div>500m</div>
+                        <div>1km</div>
+                        <div>2km</div>
+                    </div>
+
+                </div>
+                <div class="left-amenities">
+                    <div class="choose-city">Amenities found</div>
+                    <div class="amenities-table">
+                        <table>
+                            <tbody>
+                                <tr class="amenity-found">
+                                    <td><i class="fa-solid fa-mosque"></i></td>
+                                    <td>Mosque</td>
+                                    <td>10</td>
+                                    <td class="last-td"><i class="fa-solid fa-toggle-off"></i></td>
+                                </tr>
+     
+                                <tr class="amenity-found">
+                                 <td><i class="fa-solid fa-building"></i></td>
+                                 <td>Islamic center</td>
+                                 <td>5</td>
+                                 <td class="last-td"><i class="fa-solid fa-toggle-on"></i></td>
+                             </tr>
+                            </tbody>
+                         </table>
+                    </div>
+                </div>
+                <div class="left-reset-search">
+                    <button class="reset"><i class="fa-solid fa-rotate"></i>  Reset search</button>
+                </div>
+            </div>
+            <div class="main-right">
+                <div id="map"></div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
